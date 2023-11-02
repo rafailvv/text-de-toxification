@@ -1,5 +1,8 @@
 # Practical Machine Learning and Deep Learning - Assignment 1 - Text De-toxification
 
+### Venediktov Rafail BS20-AI
+r.venediktov@innopolis.university
+
 ## Task description
 
 Text Detoxification Task is a process of transforming the text with toxic style into the text with the same meaning but with neutral style.
