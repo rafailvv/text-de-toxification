@@ -37,9 +37,7 @@ def is_toxic(text):
     """
     # Assume 'classifier' is a pre-defined function or model that can classify the toxicity.
     # Initialize the classifier pipeline
-    classifier = pipeline(
-        "sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english"
-    )
+
     results = classifier(text)
 
     for result in results:
@@ -72,6 +70,10 @@ device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cp
 MODEL_PATH = "../../models/detoxified_t5_model"
 model = T5ForConditionalGeneration.from_pretrained(MODEL_PATH).to(device)
 tokenizer = T5Tokenizer.from_pretrained(MODEL_PATH)
+
+classifier = pipeline(
+    "sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english"
+)
 
 form.detoxification_button.clicked.connect(detoxification_pressed)
 
