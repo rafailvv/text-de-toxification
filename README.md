@@ -36,8 +36,9 @@ Your repository should adhere to the following structure:
 - `notebooks/` - Jupyter notebooks for data exploration and model visualization.
 - `reports/` - Generated analysis and figures interim and final reports.
 - `references/` - Explanatory materials and documentation.
-- `requirements.txt` - List of dependencies to replicate the development environment.
 - `src/` - Source code used in this project.
+- `requirements.txt` - List of dependencies to replicate the development environment.
+
 
 ## Basic usage
 
