@@ -1,7 +1,10 @@
 # Practical Machine Learning and Deep Learning - Assignment 1 - Text De-toxification
 
-### Venediktov Rafail BS20-AI
-r.venediktov@innopolis.university
+**Name:** Venediktov Rafail 
+
+**Group:** BS20-AI
+
+**Email:** r.venediktov@innopolis.university
 
 ## Overview
 
