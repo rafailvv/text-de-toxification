@@ -45,6 +45,6 @@ The relatively low values in the BLEU score and accuracy for the T5 model can be
 
 Also, an **application was created using PyQt6** to facilitate exploratory analysis and result-oriented visualizations. This application is designed to present the outcomes of the text de-toxification models in a more user-friendly and interactive manner, allowing for a deeper dive into the models' performances and the impacts of the training data and computational constraints on the results.
 <p float="left">
-  <img src="https://github.com/rafailvv/text-de-toxification/blob/master/reports/figures/application_results_tab.PNG" width="48%" />
+  <img src="https://github.com/rafailvv/text-de-toxification/blob/master/reports/figures/application_exploration_tab.PNG" width="48%" />
   <img src="https://github.com/rafailvv/text-de-toxification/blob/master/reports/figures/application_results_tab.PNG" width="48%" />
 </p>
