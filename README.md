@@ -34,7 +34,8 @@ Your repository should adhere to the following structure:
 - `data/` - Contains raw, intermediate, and external data.
 - `models/` - Where trained models and checkpoints are stored.
 - `notebooks/` - Jupyter notebooks for data exploration and model visualization.
-- `reports/` - Generated analysis and figures interim and final report .
+- `reports/` - Generated analysis and figures interim and final reports.
+- `references/` - Explanatory materials and documentation.
 - `requirements.txt` - List of dependencies to replicate the development environment.
 - `src/` - Source code used in this project.
 
